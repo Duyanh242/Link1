@@ -18,7 +18,6 @@
     position: relative;
     left: 85.5%;
     top:15px;
-
 }
 .icon{
    font-size: 26px;
@@ -82,9 +81,6 @@
     position: relative;
     top:5px;
     left: 300px;
-}
-.center-top{
-    
 }
 .label-con{
 width: 30%;
@@ -219,4 +215,277 @@ background-color: azure;
 .link_qc:hover{
     text-decoration: underline;
     color:#2f6697
+}
+.con-mid-2{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    top:140px;
+    left: 48px;
+}
+.con-mid-2::before{
+    content: "";
+    display: block;
+    border: 1.3px solid #999;
+    width: 95%;
+    position: relative;
+    top:-40px;
+}
+.label-5{
+    font-size: 30px;
+    font-weight: bold;
+}
+.con-li{
+    line-height: 25px;
+}
+.li{
+    font-size: 20px;
+    color: #1a1a1a;
+}
+.a-li{
+    color:#1a1a1a;
+}
+.a-li:hover{
+    color:rgb(37, 157, 157)
+}
+.con-mid-2::after{
+    content: "";
+    display: block;
+    border: 1.3px solid #999;
+    width: 95%;
+    position: relative;
+    top:25px;
+}
+.con-author{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    top:200px;
+    display: flex;
+    justify-content: space-around;
+    left: 50px;
+}
+.img-7{
+width: 100px;
+height: 100px;
+}
+.label-6{
+    font-size: 14px;
+    color:#999;
+}
+.con-a{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    top:250px;
+    left: 63px;
+}
+.con-a::before{
+    content: "";
+    display: block;
+    border: 1.3px solid #e5e5e5;
+    position: relative;
+    top:-10px;
+    left: -24px;
+}
+.con-a::after{
+    content: "";
+    display: block;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    top:25px;
+    left: -25px;
+}
+.a{
+    margin-left: 20px;
+    font-size: 13px;
+    color:#1a1a1a;
+}
+.a:hover{
+    color:rgb(47, 129, 129);
+}
+.a-m{
+    font-size: 13px;
+    position: relative;
+    top:10px;
+    color:#1a1a1a;
+}
+.a-m:hover{
+    color:rgb(47, 129, 129);
+}
+.label-tp{
+    color:#999;
+    font-size: 13px;
+}
+/* CSS Con-infor */
+.con-infor{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:400px;
+    
+}
+.img-8{
+    width: 270px;
+    height: 160px;
+}
+.con-label{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.label-o{
+font-size: 18px;
+position: relative;
+top:10px;
+font-weight: bold;
+}
+.con-label::after{
+    content: "";
+    display: block;
+    border: 1.5px solid #e5e5e5;
+    position: relative;
+    top:-30px;
+}
+.con-label::before{
+    content: "";
+    display: block;
+    border: 1.5px solid #e5e5e5;
+    position: relative;
+    top:50px;
+}
+.div-a{
+    display: block;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.div-a:hover{
+    text-decoration: underline;
+}
+.con-img-infor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.p{
+    color: #2f2f2f;
+    
+}
+.author-label{
+   font-size: 13px;
+   font-weight: bold;
+
+}
+.con-img-1{
+    width: 25%;
+    height: 100%;
+    margin-left: 20px;
+    position: relative;
+    left: -40px;
+}
+.con-img-infor-2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:50px;
+}
+/* CSS con-final */
+.img-container{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    top:500px;
+    left: 170px;
+}
+.img-9{
+    width: 220px;
+    height: 170px;
+}
+.a_img{
+    display: block;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.a_img:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.img-con-infor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    top:10px;
+}
+.label-author{
+    font-size: 15px;
+    color:#999;
+    position: relative;
+    top:5px;
+}
+.con_infor{
+    width: 33%;
+    height: 100%;
+}
+.img-con-infor-3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:30px;
+}
+/* CSS footer */
+.con-footer{
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    position: relative;
+    top:600px;
+    display: flex;
+    justify-content: space-around;
+}
+/* .con-footer::before{
+    content: "";
+    display: block;
+    border: 1.3px solid #999;
+    position: relative;
+    width: 100%;
+    height: 0;
+    top:100px;
+} */
+.p-a{
+    display: block;
+    text-decoration: none;
+    color:#e5e5e5;
+}
+.p-a:hover{
+    text-decoration: underline;
+}
+.icon-con{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    left: -30px;
+    bottom: 10px;
+}
+.icon{
+    font-size: 20px;
+    color: #999;
+}
+.para-footer{
+    color:#e5e5e5
+}
+.label-footer{
+    color:#e5e5e5
 }
